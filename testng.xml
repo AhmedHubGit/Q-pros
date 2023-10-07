@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoBlaze" >
+<!--    <listeners>-->
+<!--        <listener class-name="com.demoBlaze.utilities.listeners.TestNGListener"/>-->
+<!--    </listeners>-->
+    <test name="DemoBlaze">
+        <classes>
+<!--            <class name="com.vodafone.sales_portal_taf.utilities.extent_report.ExtentReport"/>-->
+            <class name="com.demoBlaze.tests.TrialRunner"/>
+        </classes>
+    </test>
+</suite>
